@@ -1,0 +1,601 @@
+.root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    justify-content: space-between;
+    display: flex;
+
+    position: fixed;
+    top: 0px;
+    height: 90px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(236, 237, 238, 0.835);
+    box-shadow: 0px 1px 2px rgb(174, 172, 172),
+        0px 2px 4px rgb(205, 201, 201),
+        0px 4px 8px rgb(168, 164, 164),
+        0px 8px 16px rgb(195, 192, 192);
+    background-color: white;
+
+}
+
+.navButtons {
+    display: flex;
+    justify-content: space-around;
+
+    width: 192px;
+    margin-right: 100px;
+    align-self: center;
+    justify-self: flex-end;
+
+
+
+
+}
+
+
+
+.navbar img {
+    height: 60px;
+    align-self: center;
+    margin-left: 100px;
+}
+
+h1 {
+    margin-top: 100px;
+    display: flex;
+    color: blue;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    width: 1148px;
+    margin-left: 360px;
+
+
+
+}
+
+.container-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.explore {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    background-color: rgba(236, 237, 238, 0.835);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    border-radius: 10px;
+    width: 1050px;
+    height: 90px;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    margin-left: 20px
+}
+
+.explore h3 {
+    font-size: 30px;
+    margin: 0px;
+
+}
+
+
+
+
+.assets {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 31px;
+    margin-left: 40px;
+
+
+
+}
+
+
+.assetTitle {
+    font-size: 27px;
+    background-color: black;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: normal;
+    display: flex;
+    flex-direction: row;
+    width: 532px;
+    height: 50px;
+    align-items: center;
+
+}
+
+.assetTitle button {
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    margin-right: 20px;
+    border: none;
+
+
+
+
+}
+
+.asset {
+
+    border-radius: 10px;
+    height: 539px;
+    width: 532px;
+    box-shadow: 0px 1px 2px rgb(174, 172, 172),
+        0px 2px 4px rgb(205, 201, 201),
+        0px 4px 8px rgb(168, 164, 164),
+        0px 8px 16px rgb(195, 192, 192);
+
+}
+
+
+
+.assetTitle h4 {
+
+    font-weight: normal;
+    text-align: center;
+    flex-grow: 1;
+
+}
+
+.asset p {
+    padding: 20px;
+    font-size: 18px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.asset iframe {
+    width: 532px;
+    height: 316px;
+}
+
+
+.menuButton {
+    background-color: transparent;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    position: fixed;
+    align-self: flex-end;
+    background-color: white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    display: flex;
+    margin-top: 10px;
+    margin-right: 20px;
+
+
+
+
+
+}
+
+
+
+.Menu.collapsed .categoryContent {
+
+    width: 100px;
+}
+
+.Menu.collapsed .categoryContent ul {
+    display: none;
+}
+
+.Menu.collapsed .categoryContent p {
+    color: transparent;
+    padding: 0px;
+    height: 54px;
+}
+
+.greenButton img {
+    height: 80px;
+    width: 80px;
+    align-self: center;
+    margin-left: -75px;
+
+}
+
+.greenButton {
+    height: 80px;
+    width: 80px;
+    position: fixed;
+    display: none;
+    align-items: center;
+    text-align: center;
+    top: 200px;
+    border: none;
+    background-color: transparent;
+    margin-left: 20px;
+}
+
+.Menu.collapsed .greenButton {
+    display: flex;
+}
+
+
+
+
+
+.Menu .categoryContent {
+
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    width: 350px;
+    position: fixed;
+    top: 90px;
+    height: 850px;
+    left: 0px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 2px rgb(174, 172, 172),
+        0px 2px 4px rgb(205, 201, 201),
+        0px 4px 8px rgb(168, 164, 164),
+        0px 8px 16px rgb(195, 192, 192);
+    background-color: white;
+    z-index: 9999;
+
+
+}
+
+.Menu .categoryContent p {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    margin-top: 0px;
+    border-top-right-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Menu .categoryContent :last-child {
+    padding-left: 2rem;
+}
+
+.Menu .categoryContent :nth-child(2) {
+    padding-left: 2rem;
+}
+
+.Menu .categoryContent :nth-child(3) {
+    padding-left: 2rem;
+}
+
+.Menu .categoryContent :nth-child(4) {
+    padding-left: 2rem;
+}
+
+.Menu .categoryContent ul {
+    line-height: 25px;
+}
+
+.fc {
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.methodContainer iframe {
+    height: 420px;
+
+}
+
+.threadbuilder {
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.ButtonAndName {
+    display: flex;
+    background-color: rgba(236, 232, 225, 0.835);
+    align-items: center;
+    width: 532px;
+    height: 40px;
+
+
+
+
+}
+
+.ButtonAndName h4 {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.toggleBtn {
+    width: 60px;
+    height: 40px;
+    border: none;
+    margin-left: 20px;
+    background-color: transparent;
+    font-size: 20px;
+
+
+}
+
+
+.threadContent {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    place-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: auto;
+    height: 360px;
+}
+
+.threadContent::-webkit-scrollbar {
+    width: 8px;
+    background-color: transparent;
+}
+
+.threadContent:-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.threadContent:-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.threadContent h3 {
+    margin-bottom: 0px;
+    background-color: rgba(236, 237, 238, 0.835);
+    width: 222px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 50px;
+    box-shadow: 0px 1px 2px rgb(174, 172, 172),
+        0px 2px 4px rgb(205, 201, 201),
+        0px 4px 8px rgb(168, 164, 164),
+        0px 8px 16px rgb(195, 192, 192);
+    border: none;
+    margin: 10px;
+    margin-bottom: -30px;
+}
+
+.threadContent textarea {
+    margin-top: -20px;
+    height: 87px;
+    margin: 10px;
+    width: 218px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px rgb(174, 172, 172),
+        0px 2px 4px rgb(205, 201, 201),
+        0px 4px 8px rgb(168, 164, 164),
+        0px 8px 16px rgb(195, 192, 192);
+    border: none;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.select select {
+    border-radius: 10px;
+    width: 95px;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 0px 1px 2px rgb(174, 172, 172),
+        0px 2px 4px rgb(205, 201, 201),
+        0px 4px 8px rgb(168, 164, 164),
+        0px 8px 16px rgb(195, 192, 192);
+
+
+}
+
+.select1 {
+
+    border-radius: 10px;
+    width: 95px;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 0px 1px 2px rgb(174, 172, 172),
+        0px 2px 4px rgb(205, 201, 201),
+        0px 4px 8px rgb(168, 164, 164),
+        0px 8px 16px rgb(195, 192, 192);
+
+
+}
+
+
+
+.summary h3 {
+    width: 400px;
+}
+
+.summary textarea {
+    width: 396px;
+}
+
+
+.threadContent button {
+    background-color: blue;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    margin-left: 50px;
+    border: none;
+
+}
+
+.subBtn {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: flex-start;
+
+}
+
+.ThreadBtn {
+    margin-left: 300px;
+
+}
+
+.toggleBtn:hover {
+    cursor: pointer;
+    color: red;
+}
+
+
+.threadContentcollapsed {
+    display: none;
+}
+
+.article {
+    overflow: auto;
+    height: 380px;
+}
+
+.article::-webkit-scrollbar {
+    width: 8px;
+    background-color: transparent;
+}
+
+.article::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.article::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.titleAndContent {
+    margin-top: -50px;
+    padding: 20px;
+}
+
+.titleAndContent h4 {
+    font-size: 20px;
+}
+
+.titleAndContent textarea {
+    width: 100%;
+    box-shadow: 0px 1px 2px rgb(174, 172, 172),
+        0px 2px 4px rgb(205, 201, 201),
+        0px 4px 8px rgb(168, 164, 164),
+        0px 8px 16px rgb(195, 192, 192);
+    border-radius: 5px;
+}
+
+.category {
+
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.category select {
+    border-radius: 5px;
+    width: 150px;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 0px 1px 2px rgb(174, 172, 172),
+        0px 2px 4px rgb(205, 201, 201),
+        0px 4px 8px rgb(168, 164, 164),
+        0px 8px 16px rgb(195, 192, 192);
+    margin-left: 40px;
+
+}
+
+.category h4 {
+    margin-left: 30px;
+    margin-bottom: 10px;
+
+}
+
+
+
+.browseBtn {
+    width: 180px;
+    height: 35px;
+    margin-left: 20px;
+    background: linear-gradient(to right, hwb(0 100% 0%) 55%, #b8b4b4 55%);
+    border-radius: 5px;
+    border: none;
+    border: 1px solid silver;
+
+}
+
+
+
+.btn1 {
+    display: flex;
+    gap: 10px;
+    justify-self: flex-end;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    width: 120px;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.btn2 {
+    position: fixed;
+    right: 10px;
+    bottom: 180px;
+    z-index: 9999;
+    background-color: blue;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+    border: 1px solid white;
+}
+
+.btn3 {
+    position: fixed;
+    right: 10px;
+    bottom: 100px;
+    z-index: 9999;
+    background-color: blue;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+    border: 1px solid white;
+}
+
+.btn4 {
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    z-index: 9999;
+    background-color: blue;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+    border: 1px solid white;
+}
